@@ -14,5 +14,5 @@ A precompiled IPA can be found in the root directory SwiftSecurity.ipa. You woul
 
 Current look of the app:
 
-![swiftsecurity](swiftsecurity.png)
+<img src="swiftsecurity.png" alt="swiftsecurity" width="300">
 
