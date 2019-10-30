@@ -10,5 +10,9 @@ The following checks can be run:
 
 And the Deny Debugger function.
 
+A precompiled IPA can be found in the root directory SwiftSecurity.ipa. You would need to resign it before running on your device.
+
+Current look of the app:
+
 ![swiftsecurity](swiftsecurity.png)
 
