@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		263D130525A1B9AC00BE2646 /* IOSSecuritySuite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263D12F925A1B9AC00BE2646 /* IOSSecuritySuite.swift */; };
+		263D130625A1B9AC00BE2646 /* FishHookChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263D12FA25A1B9AC00BE2646 /* FishHookChecker.swift */; };
+		263D130725A1B9AC00BE2646 /* MSHookFunctionChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263D12FB25A1B9AC00BE2646 /* MSHookFunctionChecker.swift */; };
+		263D130825A1B9AC00BE2646 /* JailbreakChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263D12FC25A1B9AC00BE2646 /* JailbreakChecker.swift */; };
+		263D130925A1B9AC00BE2646 /* EmulatorChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263D12FD25A1B9AC00BE2646 /* EmulatorChecker.swift */; };
+		263D130A25A1B9AC00BE2646 /* RuntimeHookChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263D12FE25A1B9AC00BE2646 /* RuntimeHookChecker.swift */; };
+		263D130B25A1B9AC00BE2646 /* IntegrityChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263D12FF25A1B9AC00BE2646 /* IntegrityChecker.swift */; };
+		263D130C25A1B9AC00BE2646 /* ProxyChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263D130025A1B9AC00BE2646 /* ProxyChecker.swift */; };
+		263D130D25A1B9AC00BE2646 /* ReverseEngineeringToolsChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263D130225A1B9AC00BE2646 /* ReverseEngineeringToolsChecker.swift */; };
+		263D130F25A1B9AC00BE2646 /* DebuggerChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263D130425A1B9AC00BE2646 /* DebuggerChecker.swift */; };
 		26AAC2CF236A21450014B2A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AAC2CE236A21450014B2A6 /* AppDelegate.swift */; };
 		26AAC2D1236A21450014B2A6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AAC2D0236A21450014B2A6 /* SceneDelegate.swift */; };
 		26AAC2D3236A21450014B2A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AAC2D2236A21450014B2A6 /* ViewController.swift */; };
@@ -15,16 +25,6 @@
 		26AAC2DB236A21450014B2A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26AAC2D9236A21450014B2A6 /* LaunchScreen.storyboard */; };
 		26AAC2E6236A21460014B2A6 /* SwiftSecurityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AAC2E5236A21460014B2A6 /* SwiftSecurityTests.swift */; };
 		26AAC2F1236A21460014B2A6 /* SwiftSecurityUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AAC2F0236A21460014B2A6 /* SwiftSecurityUITests.swift */; };
-		26F55630259D80F300D9DABF /* IOSSecuritySuite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F55624259D80F300D9DABF /* IOSSecuritySuite.swift */; };
-		26F55632259D80F300D9DABF /* IntegrityChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F55626259D80F300D9DABF /* IntegrityChecker.swift */; };
-		26F55633259D80F300D9DABF /* EmulatorChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F55627259D80F300D9DABF /* EmulatorChecker.swift */; };
-		26F55634259D80F300D9DABF /* ProxyChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F55628259D80F300D9DABF /* ProxyChecker.swift */; };
-		26F55635259D80F300D9DABF /* DebuggerChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F55629259D80F300D9DABF /* DebuggerChecker.swift */; };
-		26F55636259D80F300D9DABF /* FishHookChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F5562A259D80F300D9DABF /* FishHookChecker.swift */; };
-		26F55637259D80F300D9DABF /* JailbreakChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F5562B259D80F300D9DABF /* JailbreakChecker.swift */; };
-		26F55638259D80F300D9DABF /* MSHookFunctionChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F5562C259D80F300D9DABF /* MSHookFunctionChecker.swift */; };
-		26F55639259D80F300D9DABF /* ReverseEngineeringToolsChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F5562D259D80F300D9DABF /* ReverseEngineeringToolsChecker.swift */; };
-		26F5563A259D80F300D9DABF /* RuntimeHookChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F5562E259D80F300D9DABF /* RuntimeHookChecker.swift */; };
 		4FF4AE90C22A3ACD3499438E /* Pods_SwiftSecurity_SwiftSecurityUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 285C3A1785F43E0E88A48692 /* Pods_SwiftSecurity_SwiftSecurityUITests.framework */; };
 		818C7447775F2F979176D70E /* Pods_SwiftSecurityTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70103D54766463D84F58B9D1 /* Pods_SwiftSecurityTests.framework */; };
 /* End PBXBuildFile section */
@@ -47,6 +47,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		263D12F925A1B9AC00BE2646 /* IOSSecuritySuite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IOSSecuritySuite.swift; sourceTree = "<group>"; };
+		263D12FA25A1B9AC00BE2646 /* FishHookChecker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FishHookChecker.swift; sourceTree = "<group>"; };
+		263D12FB25A1B9AC00BE2646 /* MSHookFunctionChecker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSHookFunctionChecker.swift; sourceTree = "<group>"; };
+		263D12FC25A1B9AC00BE2646 /* JailbreakChecker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JailbreakChecker.swift; sourceTree = "<group>"; };
+		263D12FD25A1B9AC00BE2646 /* EmulatorChecker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmulatorChecker.swift; sourceTree = "<group>"; };
+		263D12FE25A1B9AC00BE2646 /* RuntimeHookChecker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RuntimeHookChecker.swift; sourceTree = "<group>"; };
+		263D12FF25A1B9AC00BE2646 /* IntegrityChecker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntegrityChecker.swift; sourceTree = "<group>"; };
+		263D130025A1B9AC00BE2646 /* ProxyChecker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProxyChecker.swift; sourceTree = "<group>"; };
+		263D130125A1B9AC00BE2646 /* IOSSecuritySuite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOSSecuritySuite.h; sourceTree = "<group>"; };
+		263D130225A1B9AC00BE2646 /* ReverseEngineeringToolsChecker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReverseEngineeringToolsChecker.swift; sourceTree = "<group>"; };
+		263D130325A1B9AC00BE2646 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		263D130425A1B9AC00BE2646 /* DebuggerChecker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DebuggerChecker.swift; sourceTree = "<group>"; };
 		26AAC2CB236A21450014B2A6 /* SwiftSecurity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftSecurity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		26AAC2CE236A21450014B2A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		26AAC2D0236A21450014B2A6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -61,18 +73,6 @@
 		26AAC2EC236A21460014B2A6 /* SwiftSecurityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftSecurityUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		26AAC2F0236A21460014B2A6 /* SwiftSecurityUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftSecurityUITests.swift; sourceTree = "<group>"; };
 		26AAC2F2236A21460014B2A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		26F55624259D80F300D9DABF /* IOSSecuritySuite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IOSSecuritySuite.swift; path = "../../../../../../../Downloads/IOSSecuritySuite-1.8.0/IOSSecuritySuite/IOSSecuritySuite.swift"; sourceTree = "<group>"; };
-		26F55625259D80F300D9DABF /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../../../../../../../Downloads/IOSSecuritySuite-1.8.0/IOSSecuritySuite/Info.plist"; sourceTree = "<group>"; };
-		26F55626259D80F300D9DABF /* IntegrityChecker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IntegrityChecker.swift; path = "../../../../../../../Downloads/IOSSecuritySuite-1.8.0/IOSSecuritySuite/IntegrityChecker.swift"; sourceTree = "<group>"; };
-		26F55627259D80F300D9DABF /* EmulatorChecker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EmulatorChecker.swift; path = "../../../../../../../Downloads/IOSSecuritySuite-1.8.0/IOSSecuritySuite/EmulatorChecker.swift"; sourceTree = "<group>"; };
-		26F55628259D80F300D9DABF /* ProxyChecker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProxyChecker.swift; path = "../../../../../../../Downloads/IOSSecuritySuite-1.8.0/IOSSecuritySuite/ProxyChecker.swift"; sourceTree = "<group>"; };
-		26F55629259D80F300D9DABF /* DebuggerChecker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DebuggerChecker.swift; path = "../../../../../../../Downloads/IOSSecuritySuite-1.8.0/IOSSecuritySuite/DebuggerChecker.swift"; sourceTree = "<group>"; };
-		26F5562A259D80F300D9DABF /* FishHookChecker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FishHookChecker.swift; path = "../../../../../../../Downloads/IOSSecuritySuite-1.8.0/IOSSecuritySuite/FishHookChecker.swift"; sourceTree = "<group>"; };
-		26F5562B259D80F300D9DABF /* JailbreakChecker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JailbreakChecker.swift; path = "../../../../../../../Downloads/IOSSecuritySuite-1.8.0/IOSSecuritySuite/JailbreakChecker.swift"; sourceTree = "<group>"; };
-		26F5562C259D80F300D9DABF /* MSHookFunctionChecker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MSHookFunctionChecker.swift; path = "../../../../../../../Downloads/IOSSecuritySuite-1.8.0/IOSSecuritySuite/MSHookFunctionChecker.swift"; sourceTree = "<group>"; };
-		26F5562D259D80F300D9DABF /* ReverseEngineeringToolsChecker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReverseEngineeringToolsChecker.swift; path = "../../../../../../../Downloads/IOSSecuritySuite-1.8.0/IOSSecuritySuite/ReverseEngineeringToolsChecker.swift"; sourceTree = "<group>"; };
-		26F5562E259D80F300D9DABF /* RuntimeHookChecker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RuntimeHookChecker.swift; path = "../../../../../../../Downloads/IOSSecuritySuite-1.8.0/IOSSecuritySuite/RuntimeHookChecker.swift"; sourceTree = "<group>"; };
-		26F5562F259D80F300D9DABF /* IOSSecuritySuite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IOSSecuritySuite.h; path = "../../../../../../../Downloads/IOSSecuritySuite-1.8.0/IOSSecuritySuite/IOSSecuritySuite.h"; sourceTree = "<group>"; };
 		285C3A1785F43E0E88A48692 /* Pods_SwiftSecurity_SwiftSecurityUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftSecurity_SwiftSecurityUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		70103D54766463D84F58B9D1 /* Pods_SwiftSecurityTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftSecurityTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9A6CCAA8BFCEC937EFA0017 /* Pods_SwiftSecurity.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftSecurity.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -105,6 +105,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		263D12F825A1B9AC00BE2646 /* IOSSecuritySuite */ = {
+			isa = PBXGroup;
+			children = (
+				263D12F925A1B9AC00BE2646 /* IOSSecuritySuite.swift */,
+				263D12FA25A1B9AC00BE2646 /* FishHookChecker.swift */,
+				263D12FB25A1B9AC00BE2646 /* MSHookFunctionChecker.swift */,
+				263D12FC25A1B9AC00BE2646 /* JailbreakChecker.swift */,
+				263D12FD25A1B9AC00BE2646 /* EmulatorChecker.swift */,
+				263D12FE25A1B9AC00BE2646 /* RuntimeHookChecker.swift */,
+				263D12FF25A1B9AC00BE2646 /* IntegrityChecker.swift */,
+				263D130025A1B9AC00BE2646 /* ProxyChecker.swift */,
+				263D130125A1B9AC00BE2646 /* IOSSecuritySuite.h */,
+				263D130225A1B9AC00BE2646 /* ReverseEngineeringToolsChecker.swift */,
+				263D130325A1B9AC00BE2646 /* Info.plist */,
+				263D130425A1B9AC00BE2646 /* DebuggerChecker.swift */,
+			);
+			path = IOSSecuritySuite;
+			sourceTree = "<group>";
+		};
 		26AAC2C2236A21450014B2A6 = {
 			isa = PBXGroup;
 			children = (
@@ -129,7 +148,7 @@
 		26AAC2CD236A21450014B2A6 /* SwiftSecurity */ = {
 			isa = PBXGroup;
 			children = (
-				26AAC2FE236A27C20014B2A6 /* IOSSecuritySuite */,
+				263D12F825A1B9AC00BE2646 /* IOSSecuritySuite */,
 				26AAC2CE236A21450014B2A6 /* AppDelegate.swift */,
 				26AAC2D0236A21450014B2A6 /* SceneDelegate.swift */,
 				26AAC2D2236A21450014B2A6 /* ViewController.swift */,
@@ -157,25 +176,6 @@
 				26AAC2F2236A21460014B2A6 /* Info.plist */,
 			);
 			path = SwiftSecurityUITests;
-			sourceTree = "<group>";
-		};
-		26AAC2FE236A27C20014B2A6 /* IOSSecuritySuite */ = {
-			isa = PBXGroup;
-			children = (
-				26F55629259D80F300D9DABF /* DebuggerChecker.swift */,
-				26F55627259D80F300D9DABF /* EmulatorChecker.swift */,
-				26F5562A259D80F300D9DABF /* FishHookChecker.swift */,
-				26F55625259D80F300D9DABF /* Info.plist */,
-				26F55626259D80F300D9DABF /* IntegrityChecker.swift */,
-				26F5562F259D80F300D9DABF /* IOSSecuritySuite.h */,
-				26F55624259D80F300D9DABF /* IOSSecuritySuite.swift */,
-				26F5562B259D80F300D9DABF /* JailbreakChecker.swift */,
-				26F5562C259D80F300D9DABF /* MSHookFunctionChecker.swift */,
-				26F55628259D80F300D9DABF /* ProxyChecker.swift */,
-				26F5562D259D80F300D9DABF /* ReverseEngineeringToolsChecker.swift */,
-				26F5562E259D80F300D9DABF /* RuntimeHookChecker.swift */,
-			);
-			path = IOSSecuritySuite;
 			sourceTree = "<group>";
 		};
 		9F4264E036B1EB1F888E07BC /* Frameworks */ = {
@@ -368,19 +368,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26F55639259D80F300D9DABF /* ReverseEngineeringToolsChecker.swift in Sources */,
+				263D130D25A1B9AC00BE2646 /* ReverseEngineeringToolsChecker.swift in Sources */,
+				263D130725A1B9AC00BE2646 /* MSHookFunctionChecker.swift in Sources */,
 				26AAC2D3236A21450014B2A6 /* ViewController.swift in Sources */,
+				263D130A25A1B9AC00BE2646 /* RuntimeHookChecker.swift in Sources */,
+				263D130B25A1B9AC00BE2646 /* IntegrityChecker.swift in Sources */,
 				26AAC2CF236A21450014B2A6 /* AppDelegate.swift in Sources */,
-				26F55636259D80F300D9DABF /* FishHookChecker.swift in Sources */,
-				26F55635259D80F300D9DABF /* DebuggerChecker.swift in Sources */,
-				26F55630259D80F300D9DABF /* IOSSecuritySuite.swift in Sources */,
-				26F55638259D80F300D9DABF /* MSHookFunctionChecker.swift in Sources */,
-				26F55632259D80F300D9DABF /* IntegrityChecker.swift in Sources */,
-				26F5563A259D80F300D9DABF /* RuntimeHookChecker.swift in Sources */,
-				26F55633259D80F300D9DABF /* EmulatorChecker.swift in Sources */,
+				263D130C25A1B9AC00BE2646 /* ProxyChecker.swift in Sources */,
+				263D130525A1B9AC00BE2646 /* IOSSecuritySuite.swift in Sources */,
+				263D130625A1B9AC00BE2646 /* FishHookChecker.swift in Sources */,
 				26AAC2D1236A21450014B2A6 /* SceneDelegate.swift in Sources */,
-				26F55634259D80F300D9DABF /* ProxyChecker.swift in Sources */,
-				26F55637259D80F300D9DABF /* JailbreakChecker.swift in Sources */,
+				263D130F25A1B9AC00BE2646 /* DebuggerChecker.swift in Sources */,
+				263D130925A1B9AC00BE2646 /* EmulatorChecker.swift in Sources */,
+				263D130825A1B9AC00BE2646 /* JailbreakChecker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
