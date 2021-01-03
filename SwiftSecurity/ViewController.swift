@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import IOSSecuritySuite
 
 class ViewController: UIViewController {
     @IBOutlet weak var Label_Jailbreak: UILabel!
